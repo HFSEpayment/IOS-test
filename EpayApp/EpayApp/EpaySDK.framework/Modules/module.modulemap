@@ -1,0 +1,11 @@
+framework module EpaySDK {
+  umbrella header "EpaySDK.h"
+
+  export *
+  module * { export * }
+}
+
+module EpaySDK.Swift {
+  header "EpaySDK-Swift.h"
+  requires objc
+}

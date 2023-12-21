@@ -12,18 +12,17 @@
 		5D8856F7241A82C100E63E06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8856F6241A82C100E63E06 /* AppDelegate.swift */; };
 		5D8856F9241A82C100E63E06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8856F8241A82C100E63E06 /* ViewController.swift */; };
 		5D8856FE241A82C700E63E06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D8856FD241A82C700E63E06 /* Assets.xcassets */; };
-		784D97642AEBCD6B00593A06 /* EpaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 784D97602AEBCD2600593A06 /* EpaySDK.framework */; };
-		784D97652AEBCD6B00593A06 /* EpaySDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 784D97602AEBCD2600593A06 /* EpaySDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		78596F932B3438B20072BED1 /* EpaySDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 78596F922B3438B20072BED1 /* EpaySDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		784D97662AEBCD6B00593A06 /* Embed Frameworks */ = {
+		9976A9722A8A7D2B000F960A /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				784D97652AEBCD6B00593A06 /* EpaySDK.framework in Embed Frameworks */,
+				78596F932B3438B20072BED1 /* EpaySDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -40,7 +39,7 @@
 		5D8856F8241A82C100E63E06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5D8856FD241A82C700E63E06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D885702241A82C700E63E06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		784D97602AEBCD2600593A06 /* EpaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EpaySDK.framework; path = EpayApp/EpaySDK.framework; sourceTree = "<group>"; };
+		78596F922B3438B20072BED1 /* EpaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EpaySDK.framework; sourceTree = "<group>"; };
 		9976A9732A8A8677000F960A /* EpayApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EpayApp.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,7 +48,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				784D97642AEBCD6B00593A06 /* EpaySDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +57,7 @@
 		5D8856EA241A82C100E63E06 = {
 			isa = PBXGroup;
 			children = (
+				78596F922B3438B20072BED1 /* EpaySDK.framework */,
 				5D8856F5241A82C100E63E06 /* EpayApp */,
 				5D8856F4241A82C100E63E06 /* Products */,
 				5DF116E6254BF39000E092CF /* Frameworks */,
@@ -90,34 +89,22 @@
 		5DF116E6254BF39000E092CF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				784D97602AEBCD2600593A06 /* EpaySDK.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		780A27982ADFE26500EDD608 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
 		5D8856F2241A82C100E63E06 /* EpayApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D885705241A82C700E63E06 /* Build configuration list for PBXNativeTarget "EpayApp" */;
 			buildPhases = (
-				780A27982ADFE26500EDD608 /* Headers */,
 				5D8856EF241A82C100E63E06 /* Sources */,
 				5D8856F0241A82C100E63E06 /* Frameworks */,
 				5D8856F1241A82C100E63E06 /* Resources */,
 				5D18E0C12442CCE10010F8B8 /* Run Script */,
-				784D97662AEBCD6B00593A06 /* Embed Frameworks */,
+				9976A9722A8A7D2B000F960A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -261,6 +248,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -275,10 +263,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -323,6 +311,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -331,7 +320,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -350,18 +339,19 @@
 				CURRENT_PROJECT_VERSION = 38;
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = N37ZT2S927;
-				"EXCLUDED_ARCHS[sdk=*]" = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/EpayApp",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = EpayApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.2;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = kz.homebank.epay.sdk.example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -385,6 +375,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = EpayApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -104,7 +104,7 @@ class ViewController: UIViewController {
     lazy var amountTextField: UITextField = {
         let t = UITextField()
         t.placeholder = "amount"
-        t.text = "100"
+        t.text = "18049"
         t.backgroundColor = .white
         t.keyboardType = .asciiCapableNumberPad
         t.addTarget(self, action: #selector(textFieldsIsNotEmpty), for: .editingChanged)

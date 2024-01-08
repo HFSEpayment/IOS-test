@@ -203,7 +203,7 @@ class ViewController: UIViewController {
         let description = descriptionTextField.text! == "" ? "Оплата в интернет магазине" : descriptionTextField.text!
         
         let authConfig = AuthConfig(
-            merchantId: environmentType != .dev ? "" : "c36b282f-6819-4d4f-85df-a4bdc8a8f703",
+            merchantId: environmentType != .dev ? "" : "67e34d63-102f-4bd1-898e-370781d0074d",
             merchantName: environmentType != .dev ? "" : "UberFlower",
             clientId: environmentType != .dev ? "" : "test",
             clientSecret: environmentType != .dev ? "" : "yF587AV9Ms94qN2QShFzVR3vFnWkhjbAK3sG",
@@ -303,10 +303,12 @@ class ViewController: UIViewController {
             receiverCard = CardInfo(cardCred: "ec89e681-cd17-1a3d-e053-1d1a000a54cf", cardNumber: "400303...9821", payerName: "")
         } else if transferType == .masterPass {
             masterPass = MasterPassData(
-                cardData: MasterPassCardData(token: "", CardHolder: "", ExpiryDate: "", PANMask: "", CardStatus: 2),
+                token: "",
                 merchantName: "",
                 session: "",
-                masterPassAction: MasterPassAction(SaveCard: false, updateSaveCard: false, recurring: false))
+                isClientParticipation: true,
+                isVisible: true,
+                masterPassAction: MasterPassAction(SaveCard: true, updateSaveCard: false, recurring: false))
         }else {
             senderCard = nil
             receiverCard = nil

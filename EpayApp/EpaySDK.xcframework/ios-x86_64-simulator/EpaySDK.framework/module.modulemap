@@ -1,0 +1,9 @@
+
+framework module EpaySDK {
+    umbrella header "EpaySDK.h"
+
+    private header "CardIO.h"
+
+    export *
+    module * { export * }
+}

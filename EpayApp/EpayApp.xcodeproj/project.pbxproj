@@ -3,16 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A8A05112B4E82D70021895D /* EpaySDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0A8A05102B4E82D60021895D /* EpaySDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5D0B84D5242B0F8C002F55F9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D0B84D7242B0F8C002F55F9 /* Localizable.strings */; };
 		5D60CEBF2426615900D0BC82 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D60CEBE2426615900D0BC82 /* UIView+Extensions.swift */; };
 		5D8856F7241A82C100E63E06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8856F6241A82C100E63E06 /* AppDelegate.swift */; };
 		5D8856F9241A82C100E63E06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8856F8241A82C100E63E06 /* ViewController.swift */; };
 		5D8856FE241A82C700E63E06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D8856FD241A82C700E63E06 /* Assets.xcassets */; };
-		78596F932B3438B20072BED1 /* EpaySDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 78596F922B3438B20072BED1 /* EpaySDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -22,7 +22,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				78596F932B3438B20072BED1 /* EpaySDK.framework in Embed Frameworks */,
+				0A8A05112B4E82D70021895D /* EpaySDK.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -30,6 +30,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0A8A05102B4E82D60021895D /* EpaySDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = EpaySDK.xcframework; sourceTree = "<group>"; };
 		5D0B84D6242B0F8C002F55F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		5D0B84DA242B0FB7002F55F9 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		5D0B84DB242B1030002F55F9 /* kk-KZ */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "kk-KZ"; path = "kk-KZ.lproj/Localizable.strings"; sourceTree = "<group>"; };
@@ -39,7 +40,6 @@
 		5D8856F8241A82C100E63E06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5D8856FD241A82C700E63E06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D885702241A82C700E63E06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		78596F922B3438B20072BED1 /* EpaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EpaySDK.framework; sourceTree = "<group>"; };
 		9976A9732A8A8677000F960A /* EpayApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EpayApp.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -57,7 +57,7 @@
 		5D8856EA241A82C100E63E06 = {
 			isa = PBXGroup;
 			children = (
-				78596F922B3438B20072BED1 /* EpaySDK.framework */,
+				0A8A05102B4E82D60021895D /* EpaySDK.xcframework */,
 				5D8856F5241A82C100E63E06 /* EpayApp */,
 				5D8856F4241A82C100E63E06 /* Products */,
 				5DF116E6254BF39000E092CF /* Frameworks */,

@@ -203,10 +203,10 @@ class ViewController: UIViewController {
         let description = descriptionTextField.text! == "" ? "Оплата в интернет магазине" : descriptionTextField.text!
         
         let authConfig = AuthConfig(
-            merchantId: environmentType != .dev ? "" : "67e34d63-102f-4bd1-898e-370781d0074d",
+            merchantId: environmentType != .dev ? "" : "67612aff-7aa3-412d-8f13-a2386a9e8272",
             merchantName: environmentType != .dev ? "" : "UberFlower",
-            clientId: environmentType != .dev ? "" : "test",
-            clientSecret: environmentType != .dev ? "" : "yF587AV9Ms94qN2QShFzVR3vFnWkhjbAK3sG",
+            clientId: environmentType != .dev ? "" : "ENDOSCOPES",
+            clientSecret: environmentType != .dev ? "" : "n&rkFh0ut1bKAaMj",
             appleMerchantId: "merchant.kz.homebank.epay"
         )
         
@@ -299,8 +299,8 @@ class ViewController: UIViewController {
         transferType = transfers[p2pTransferSegmentControl.selectedSegmentIndex]
 
         if transferType == .CardId {
-            senderCard = CardInfo(cardCred: "f908a460-f640-ea29-e053-1d1a000ab1de", cardNumber: "440563...5096", payerName: "John Johnson")
-            receiverCard = CardInfo(cardCred: "ec89e681-cd17-1a3d-e053-1d1a000a54cf", cardNumber: "400303...9821", payerName: "")
+            senderCard = CardInfo(cardCred: "", cardNumber: "440563...5096", payerName: "John Johnson")
+            receiverCard = CardInfo(cardCred: "", cardNumber: "400303...9821", payerName: "")
         } else if transferType == .masterPass {
             masterPass = MasterPassData(
                 token: "",

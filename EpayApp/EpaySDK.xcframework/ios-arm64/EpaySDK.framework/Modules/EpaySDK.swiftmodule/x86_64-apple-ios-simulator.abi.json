@@ -32890,1176 +32890,1232 @@
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 598,
+      "offset": 640,
+      "length": 6,
+      "value": "\"-._~\""
+    },
+    {
+      "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 699,
       "length": 12,
       "value": "\"grant_type\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 640,
+      "offset": 788,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 804,
       "length": 7,
       "value": "\"scope\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 673,
+      "offset": 884,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 900,
       "length": 11,
       "value": "\"client_id\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 713,
+      "offset": 987,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1003,
       "length": 15,
       "value": "\"client_secret\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 761,
+      "offset": 1098,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1114,
       "length": 8,
       "value": "\"amount\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 796,
+      "offset": 1149,
       "length": 10,
       "value": "\"currency\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 835,
+      "offset": 1235,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1251,
       "length": 10,
       "value": "\"terminal\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 874,
+      "offset": 1337,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1353,
       "length": 11,
       "value": "\"invoiceID\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 1015,
+      "offset": 1494,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "Dictionary",
-      "offset": 1117,
+      "offset": 1588,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1746,
+      "offset": 2217,
       "length": 38,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1768,
+      "offset": 2239,
       "length": 1,
       "value": "\"\/public-profile\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1844,
+      "offset": 2315,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1861,
+      "offset": 2332,
       "length": 23,
       "value": "\"Bearer \""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1883,
+      "offset": 2354,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1923,
+      "offset": 2394,
       "length": 13,
       "value": "\"failureLink\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1956,
+      "offset": 2427,
       "length": 10,
       "value": "\"postLink\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "Array",
-      "offset": 2063,
+      "offset": 2534,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 2810,
+      "offset": 3281,
       "length": 41,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 2832,
+      "offset": 3303,
       "length": 1,
       "value": "\"\/payment\/cryptopay\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 2902,
+      "offset": 3373,
       "length": 8,
       "value": "\"amount\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 2937,
+      "offset": 3408,
       "length": 10,
       "value": "\"currency\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 2976,
+      "offset": 3447,
       "length": 11,
       "value": "\"invoiceId\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3017,
+      "offset": 3488,
       "length": 10,
       "value": "\"postLink\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3056,
+      "offset": 3527,
       "length": 17,
       "value": "\"failurePostLink\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3109,
+      "offset": 3580,
       "length": 10,
       "value": "\"useBonus\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3150,
+      "offset": 3621,
       "length": 10,
       "value": "\"cardSave\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3239,
+      "offset": 3710,
       "length": 6,
       "value": "\"name\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3329,
+      "offset": 3800,
       "length": 13,
       "value": "\"сryptogram\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3434,
+      "offset": 3905,
       "length": 13,
       "value": "\"description\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3536,
+      "offset": 4007,
       "length": 11,
       "value": "\"accountId\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3626,
+      "offset": 4097,
       "length": 7,
       "value": "\"email\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3708,
+      "offset": 4179,
       "length": 7,
       "value": "\"phone\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3790,
+      "offset": 4261,
       "length": 7,
       "value": "\"not3d\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3884,
+      "offset": 4355,
       "length": 13,
       "value": "\"paymentType\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3992,
+      "offset": 4463,
       "length": 14,
       "value": "\"osuvoxCardId\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 4098,
+      "offset": 4569,
       "length": 12,
       "value": "\"terminalId\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 4206,
+      "offset": 4677,
       "length": 10,
       "value": "\"applePay\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 4358,
+      "offset": 4829,
       "length": 10,
       "value": "\"SaveCard\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 4401,
+      "offset": 4872,
       "length": 16,
       "value": "\"updateSaveCard\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 4450,
+      "offset": 4921,
       "length": 11,
       "value": "\"recurring\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 4510,
+      "offset": 4981,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 4596,
+      "offset": 5067,
       "length": 7,
       "value": "\"token\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 4631,
+      "offset": 5102,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 4651,
+      "offset": 5122,
       "length": 14,
       "value": "\"merchantName\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 4700,
+      "offset": 5171,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 4720,
+      "offset": 5191,
       "length": 9,
       "value": "\"session\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 4759,
+      "offset": 5230,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 4779,
+      "offset": 5250,
       "length": 23,
       "value": "\"isClientParticipation\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 4846,
+      "offset": 5317,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 4869,
+      "offset": 5340,
       "length": 11,
       "value": "\"isVisible\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 4912,
+      "offset": 5383,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 4935,
+      "offset": 5406,
       "length": 18,
       "value": "\"MasterPassAction\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 5022,
+      "offset": 5493,
       "length": 12,
       "value": "\"masterpass\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "Array",
-      "offset": 5144,
+      "offset": 5615,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 5225,
+      "offset": 5696,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 5242,
+      "offset": 5713,
       "length": 23,
       "value": "\"Bearer \""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 5264,
+      "offset": 5735,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 5335,
+      "offset": 5806,
       "length": 17,
       "value": "\"x-homebank-auth\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 5356,
+      "offset": 5827,
       "length": 9,
       "value": "\"Bearer \""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 6132,
+      "offset": 6603,
       "length": 44,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 6154,
+      "offset": 6625,
       "length": 1,
       "value": "\"\/payment\/checkgobonus\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 6214,
+      "offset": 6685,
       "length": 13,
       "value": "\"сryptogram\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "Array",
-      "offset": 6335,
+      "offset": 6806,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 6441,
+      "offset": 6912,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 6458,
+      "offset": 6929,
       "length": 17,
       "value": "\"Bearer \""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 6474,
+      "offset": 6945,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 7185,
+      "offset": 7656,
       "length": 43,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 7207,
+      "offset": 7678,
       "length": 1,
       "value": "\"\/recurrent\/subscribe\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 7279,
+      "offset": 7750,
       "length": 15,
       "value": "\"transactionId\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 7328,
+      "offset": 7799,
       "length": 18,
       "value": "\"paymentFrequency\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "Array",
-      "offset": 7478,
+      "offset": 7949,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 7584,
+      "offset": 8055,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 7601,
+      "offset": 8072,
       "length": 17,
       "value": "\"Bearer \""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 7617,
+      "offset": 8088,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 7945,
+      "offset": 8416,
       "length": 13,
       "value": "\"en_US_POSIX\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 8007,
+      "offset": 8478,
       "length": 32,
       "value": "\"yyyy-MM-dd'T'HH:mm:ss.SSSSSSSZ\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 8630,
+      "offset": 9101,
       "length": 29,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 8652,
+      "offset": 9123,
       "length": 1,
       "value": "\"\/order\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 8710,
+      "offset": 9181,
       "length": 8,
       "value": "\"shopId\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 8745,
+      "offset": 9216,
       "length": 8,
       "value": "\"amount\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 8780,
+      "offset": 9251,
       "length": 9,
       "value": "\"orderId\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 8817,
+      "offset": 9288,
       "length": 19,
       "value": "\"creditConditionId\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "Array",
-      "offset": 8960,
+      "offset": 9431,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 9066,
+      "offset": 9537,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 9083,
+      "offset": 9554,
       "length": 17,
       "value": "\"Bearer \""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 9099,
+      "offset": 9570,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 9805,
+      "offset": 10276,
       "length": 42,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 9827,
+      "offset": 10298,
       "length": 1,
       "value": "\"\/masterpass\/getCard\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 9898,
+      "offset": 10369,
       "length": 7,
       "value": "\"Token\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 9931,
+      "offset": 10402,
       "length": 8,
       "value": "\"Amount\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 9966,
+      "offset": 10437,
       "length": 14,
       "value": "\"MerchantName\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 10013,
+      "offset": 10484,
       "length": 9,
       "value": "\"Session\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 10050,
+      "offset": 10521,
       "length": 14,
       "value": "\"CurrencyCode\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 10097,
+      "offset": 10568,
       "length": 17,
       "value": "\"OriginalOrderId\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 10116,
+      "offset": 10587,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "Array",
-      "offset": 10218,
+      "offset": 10689,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 10324,
+      "offset": 10795,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 10341,
+      "offset": 10812,
       "length": 17,
       "value": "\"Bearer \""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 10357,
+      "offset": 10828,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 11056,
+      "offset": 11527,
       "length": 57,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 11078,
+      "offset": 11549,
       "length": 1,
       "value": "\"\/credit-condition?shopId=\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 11112,
+      "offset": 11583,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 11150,
+      "offset": 11621,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 11167,
+      "offset": 11638,
       "length": 17,
       "value": "\"Bearer \""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 11183,
+      "offset": 11654,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 11863,
+      "offset": 12334,
       "length": 39,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 11885,
+      "offset": 12356,
       "length": 1,
       "value": "\"\/terminals\/\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 11901,
+      "offset": 12372,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 12030,
+      "offset": 12501,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 12047,
+      "offset": 12518,
       "length": 17,
       "value": "\"Bearer \""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 12063,
+      "offset": 12534,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 12744,
+      "offset": 13215,
       "length": 55,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 12766,
+      "offset": 13237,
       "length": 1,
       "value": "\"\/order\/status?orderId=\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 12798,
+      "offset": 13269,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 12837,
+      "offset": 13308,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 12854,
+      "offset": 13325,
       "length": 17,
       "value": "\"Bearer \""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 12870,
+      "offset": 13341,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 13569,
+      "offset": 14040,
       "length": 5,
       "value": "\"\/qr\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 13598,
+      "offset": 14069,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 13615,
+      "offset": 14086,
       "length": 23,
       "value": "\"Bearer \""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 13637,
+      "offset": 14108,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14721,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "Dictionary",
-      "offset": 14293,
+      "offset": 14848,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 14774,
+      "offset": 15367,
       "length": 22,
       "value": "\"\/hb-cards?invoiceId=\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 14832,
+      "offset": 15425,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 14849,
+      "offset": 15442,
       "length": 23,
       "value": "\"Bearer \""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 14871,
+      "offset": 15464,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 14874,
+      "offset": 15467,
       "length": 17,
       "value": "\"x-homebank-auth\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 14893,
+      "offset": 15486,
       "length": 9,
       "value": "\"Bearer \""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "Array",
-      "offset": 15296,
+      "offset": 15889,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "Array",
-      "offset": 15373,
+      "offset": 15966,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 15670,
+      "offset": 16263,
       "length": 62,
       "value": "\"\/payment\/bonus-by-iban?iban=\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 15706,
+      "offset": 16299,
       "length": 1,
       "value": "\"&terminalId=\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 15731,
+      "offset": 16324,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 15756,
+      "offset": 16349,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 15773,
+      "offset": 16366,
       "length": 23,
       "value": "\"Bearer \""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 15795,
+      "offset": 16388,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 15798,
+      "offset": 16391,
       "length": 17,
       "value": "\"x-homebank-auth\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 15817,
+      "offset": 16410,
       "length": 9,
       "value": "\"Bearer \""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 16685,
+      "offset": 17278,
       "length": 15,
       "value": "\"\/p2p\/transfer\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 16727,
+      "offset": 17320,
       "length": 19,
       "value": "\"\/chdebit\/transfer\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 16783,
+      "offset": 17376,
       "length": 21,
       "value": "\"\/chpayment\/transfer\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 16892,
+      "offset": 17485,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 16909,
+      "offset": 17502,
       "length": 23,
       "value": "\"Bearer \""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 16931,
+      "offset": 17524,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "Dictionary",
-      "offset": 16993,
+      "offset": 17586,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 17790,
+      "offset": 18383,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "Array",
-      "offset": 18268,
+      "offset": 18861,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 19048,
+      "offset": 19641,
       "length": 5,
       "value": "\"GET\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 19074,
+      "offset": 19667,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 19048,
+      "offset": 19641,
       "length": 5,
       "value": "\"GET\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 19074,
+      "offset": 19667,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 19196,
+      "offset": 19789,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 19227,
+      "offset": 19820,
       "length": 33,
       "value": "\"curl \"\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 19257,
+      "offset": 19850,
       "length": 2,
       "value": "\"\"\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 19287,
+      "offset": 19880,
       "length": 6,
       "value": "\"HEAD\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 19323,
+      "offset": 19916,
       "length": 9,
       "value": "\" --head\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 19427,
+      "offset": 20020,
       "length": 5,
       "value": "\"GET\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 19446,
+      "offset": 20039,
       "length": 6,
       "value": "\"HEAD\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 19482,
+      "offset": 20075,
       "length": 14,
       "value": "\"-X \""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 19495,
+      "offset": 20088,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 19609,
+      "offset": 20202,
       "length": 8,
       "value": "\"Cookie\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 19651,
+      "offset": 20244,
       "length": 23,
       "value": "\"-H '\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 19662,
+      "offset": 20255,
       "length": 1,
       "value": "\": \""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 19672,
+      "offset": 20265,
       "length": 3,
       "value": "\"'\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 19809,
+      "offset": 20402,
       "length": 14,
       "value": "\"-d '\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 19821,
+      "offset": 20414,
       "length": 3,
       "value": "\"'\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Network\/ApiRequest.swift",
       "kind": "StringLiteral",
-      "offset": 19877,
+      "offset": 20470,
       "length": 9,
       "value": "\" \\\n\t\""
     },

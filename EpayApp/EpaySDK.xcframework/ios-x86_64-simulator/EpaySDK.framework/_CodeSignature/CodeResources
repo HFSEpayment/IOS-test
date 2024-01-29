@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		MyGeleu5NHav2EmvY5jUIdxRDDk=
+		Y+ibAsprYErSSlVyw+752prT7tw=
 		</data>
 		<key>Headers/CardIO.h</key>
 		<data>
@@ -50,15 +50,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		2l1XV6rC/9UKzvMZqRpaiYFGXe0=
+		AKSA9mh+TXAS6SEUI/kWmeRMp7w=
 		</data>
 		<key>Modules/EpaySDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		T65Sq7JvN/DLyWliY9sq0p49M/E=
+		O7sELRHJXfEl4bjm3yKBUXPK19w=
 		</data>
 		<key>Modules/EpaySDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		d/xIsUQkOaFE3GyCqUBK1Xsnm4o=
+		kMegeRhYrrHlZZkAvWM3YgOfVfc=
 		</data>
 		<key>Modules/EpaySDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Modules/EpaySDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		0vHI/ehaDZjGIWjEk/qmRN4Iiz4=
+		TD7CpxLlTUDeM9/BUwGO1FIs53w=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -149,7 +149,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HlchpMd7BKJMuOYQif8HYEoZeOeco3nwj+hennrVr54=
+			P9u8bq/SxXk28bU1M2E8JptTB6b3zdoB/Q4bswQCjZ4=
 			</data>
 		</dict>
 		<key>Headers/CardIO.h</key>
@@ -226,14 +226,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vdgG/OiBwzOkrPJmMkkORxw8wVWcafCrs4mPCLrnp2g=
+			W2L0eFRP+MqMiZANQRrBDUNCU3voUCBMB9ZdNuF8gec=
 			</data>
 		</dict>
 		<key>Modules/EpaySDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ALJyG6d9gR2UeNxR7kXQX3ZkegH9uPljHv8iD2Nbh6c=
+			z3YEva/gO96vSGhk6l1BNiZ86f3RBfV/pE/zpLlYfRI=
 			</data>
 		</dict>
 		<key>Modules/EpaySDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -261,7 +261,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ynLvUti8D7/Y4Op8Gu63oIfBlHjVh9TMSPdmLZhVRUY=
+			S3mHgA6ISziKi37GxP1+u7jSPF6rYyBuMIpINS7oWBA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

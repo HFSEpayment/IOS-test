@@ -54,11 +54,11 @@
 		</data>
 		<key>Modules/EpaySDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		O7sELRHJXfEl4bjm3yKBUXPK19w=
+		2pRMJFyQrojrEwIO7NmHgkWGPs0=
 		</data>
 		<key>Modules/EpaySDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		kMegeRhYrrHlZZkAvWM3YgOfVfc=
+		IDgKxTHVCfnXvUHSOasiQs/ehwk=
 		</data>
 		<key>Modules/EpaySDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -226,14 +226,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			W2L0eFRP+MqMiZANQRrBDUNCU3voUCBMB9ZdNuF8gec=
+			fdH/4Cv5+EHtX9bDpS15FDw5TGUSczbsm15vc8m2p2U=
 			</data>
 		</dict>
 		<key>Modules/EpaySDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			z3YEva/gO96vSGhk6l1BNiZ86f3RBfV/pE/zpLlYfRI=
+			7ATxwMuNeDksXpx2MSnJgmb/r81bAWVgqZwLu+cqIFk=
 			</data>
 		</dict>
 		<key>Modules/EpaySDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>

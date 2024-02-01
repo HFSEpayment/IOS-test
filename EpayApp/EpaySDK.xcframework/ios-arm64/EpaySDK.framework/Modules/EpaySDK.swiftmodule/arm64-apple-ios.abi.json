@@ -40828,315 +40828,329 @@
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Modules\/Main\/Views\/Credit Card\/CreditCardPaymentView.swift",
       "kind": "BooleanLiteral",
-      "offset": 8628,
+      "offset": 8568,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Modules\/Main\/Views\/Credit Card\/CreditCardPaymentView.swift",
       "kind": "StringLiteral",
-      "offset": 8789,
+      "offset": 8729,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Modules\/Main\/Views\/Credit Card\/CreditCardPaymentView.swift",
       "kind": "StringLiteral",
-      "offset": 9097,
+      "offset": 8870,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Modules\/Main\/Views\/Credit Card\/CreditCardPaymentView.swift",
+      "kind": "StringLiteral",
+      "offset": 8958,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Modules\/Main\/Views\/Credit Card\/CreditCardPaymentView.swift",
+      "kind": "StringLiteral",
+      "offset": 9049,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Modules\/Main\/Views\/Credit Card\/CreditCardPaymentView.swift",
       "kind": "BooleanLiteral",
-      "offset": 9133,
+      "offset": 9085,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Modules\/Main\/Views\/Credit Card\/CreditCardPaymentView.swift",
       "kind": "BooleanLiteral",
-      "offset": 9211,
+      "offset": 9163,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Modules\/Main\/Views\/Credit Card\/CreditCardPaymentView.swift",
       "kind": "BooleanLiteral",
-      "offset": 9267,
+      "offset": 9219,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Modules\/Main\/Views\/Credit Card\/CreditCardPaymentView.swift",
       "kind": "IntegerLiteral",
-      "offset": 9367,
+      "offset": 9319,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Modules\/Main\/Views\/Credit Card\/CreditCardPaymentView.swift",
       "kind": "IntegerLiteral",
-      "offset": 9669,
+      "offset": 9621,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Modules\/Main\/Views\/Credit Card\/CreditCardPaymentView.swift",
       "kind": "StringLiteral",
-      "offset": 9840,
+      "offset": 9792,
       "length": 9,
       "value": "\"#DFE3E6\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Modules\/Main\/Views\/Credit Card\/CreditCardPaymentView.swift",
       "kind": "IntegerLiteral",
-      "offset": 9999,
+      "offset": 9951,
       "length": 2,
       "value": "19"
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Modules\/Main\/Views\/Credit Card\/CreditCardPaymentView.swift",
       "kind": "BooleanLiteral",
-      "offset": 10034,
+      "offset": 9986,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Modules\/Main\/Views\/Credit Card\/CreditCardPaymentView.swift",
       "kind": "BooleanLiteral",
-      "offset": 10079,
+      "offset": 10031,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Modules\/Main\/Views\/Credit Card\/CreditCardPaymentView.swift",
       "kind": "BooleanLiteral",
-      "offset": 10237,
+      "offset": 10189,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Modules\/Main\/Views\/Credit Card\/CreditCardPaymentView.swift",
       "kind": "StringLiteral",
-      "offset": 10346,
+      "offset": 10298,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Modules\/Main\/Views\/Credit Card\/CreditCardPaymentView.swift",
       "kind": "IntegerLiteral",
-      "offset": 10361,
+      "offset": 10313,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Modules\/Main\/Views\/Credit Card\/CreditCardPaymentView.swift",
       "kind": "StringLiteral",
-      "offset": 10745,
+      "offset": 10697,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Modules\/Main\/Views\/Credit Card\/CreditCardPaymentView.swift",
       "kind": "StringLiteral",
-      "offset": 10756,
+      "offset": 10708,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Modules\/Main\/Views\/Credit Card\/CreditCardPaymentView.swift",
       "kind": "IntegerLiteral",
-      "offset": 11626,
+      "offset": 11578,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Modules\/Main\/Views\/Credit Card\/CreditCardPaymentView.swift",
       "kind": "BooleanLiteral",
-      "offset": 11657,
+      "offset": 11609,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Modules\/Main\/Views\/Credit Card\/CreditCardPaymentView.swift",
       "kind": "BooleanLiteral",
-      "offset": 12001,
+      "offset": 11953,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Modules\/Main\/Views\/Credit Card\/CreditCardPaymentView.swift",
       "kind": "IntegerLiteral",
-      "offset": 12395,
+      "offset": 12347,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Modules\/Main\/Views\/Credit Card\/CreditCardPaymentView.swift",
       "kind": "BooleanLiteral",
-      "offset": 12533,
+      "offset": 12485,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Modules\/Main\/Views\/Credit Card\/CreditCardPaymentView.swift",
       "kind": "IntegerLiteral",
-      "offset": 12713,
+      "offset": 12665,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Modules\/Main\/Views\/Credit Card\/CreditCardPaymentView.swift",
       "kind": "IntegerLiteral",
-      "offset": 12850,
+      "offset": 12802,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Modules\/Main\/Views\/Credit Card\/CreditCardPaymentView.swift",
       "kind": "IntegerLiteral",
-      "offset": 12993,
+      "offset": 12945,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Modules\/Main\/Views\/Credit Card\/CreditCardPaymentView.swift",
       "kind": "IntegerLiteral",
-      "offset": 13115,
+      "offset": 13067,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Modules\/Main\/Views\/Credit Card\/CreditCardPaymentView.swift",
       "kind": "BooleanLiteral",
-      "offset": 13232,
+      "offset": 13184,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Modules\/Main\/Views\/Credit Card\/CreditCardPaymentView.swift",
       "kind": "BooleanLiteral",
-      "offset": 13258,
+      "offset": 13210,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Modules\/Main\/Views\/Credit Card\/CreditCardPaymentView.swift",
       "kind": "BooleanLiteral",
-      "offset": 13335,
+      "offset": 13287,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Modules\/Main\/Views\/Credit Card\/CreditCardPaymentView.swift",
       "kind": "BooleanLiteral",
-      "offset": 13662,
+      "offset": 13614,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Modules\/Main\/Views\/Credit Card\/CreditCardPaymentView.swift",
       "kind": "IntegerLiteral",
-      "offset": 13743,
+      "offset": 13695,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Modules\/Main\/Views\/Credit Card\/CreditCardPaymentView.swift",
       "kind": "IntegerLiteral",
-      "offset": 13818,
+      "offset": 13770,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Modules\/Main\/Views\/Credit Card\/CreditCardPaymentView.swift",
       "kind": "BooleanLiteral",
-      "offset": 13960,
+      "offset": 13912,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Modules\/Main\/Views\/Credit Card\/CreditCardPaymentView.swift",
       "kind": "BooleanLiteral",
-      "offset": 14025,
+      "offset": 13977,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Modules\/Main\/Views\/Credit Card\/CreditCardPaymentView.swift",
       "kind": "StringLiteral",
-      "offset": 14251,
+      "offset": 14203,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Modules\/Main\/Views\/Credit Card\/CreditCardPaymentView.swift",
       "kind": "StringLiteral",
-      "offset": 14262,
+      "offset": 14214,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Modules\/Main\/Views\/Credit Card\/CreditCardPaymentView.swift",
       "kind": "BooleanLiteral",
-      "offset": 14569,
+      "offset": 14521,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Modules\/Main\/Views\/Credit Card\/CreditCardPaymentView.swift",
       "kind": "StringLiteral",
-      "offset": 14697,
+      "offset": 14649,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Modules\/Main\/Views\/Credit Card\/CreditCardPaymentView.swift",
       "kind": "StringLiteral",
-      "offset": 14708,
+      "offset": 14660,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Modules\/Main\/Views\/Credit Card\/CreditCardPaymentView.swift",
       "kind": "IntegerLiteral",
-      "offset": 14719,
+      "offset": 14671,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Modules\/Main\/Views\/Credit Card\/CreditCardPaymentView.swift",
       "kind": "BooleanLiteral",
-      "offset": 14737,
+      "offset": 14689,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Modules\/Main\/Views\/Credit Card\/CreditCardPaymentView.swift",
       "kind": "StringLiteral",
-      "offset": 14820,
+      "offset": 14772,
       "length": 11,
       "value": "\"halykbank\""
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Modules\/Main\/Views\/Credit Card\/CreditCardPaymentView.swift",
       "kind": "BooleanLiteral",
-      "offset": 14879,
+      "offset": 14831,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Modules\/Main\/Views\/Credit Card\/CreditCardPaymentView.swift",
       "kind": "BooleanLiteral",
-      "offset": 14909,
+      "offset": 14861,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/abykennurlan\/Code\/epay\/ios\/EpaySDK\/EpaySDK\/Modules\/Main\/Views\/Credit Card\/CreditCardPaymentView.swift",
       "kind": "BooleanLiteral",
-      "offset": 14953,
+      "offset": 14905,
       "length": 5,
       "value": "false"
     },

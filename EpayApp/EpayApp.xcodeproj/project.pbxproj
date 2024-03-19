@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A1BDA3E2B6B5457002104EC /* EpaySDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0A1BDA3D2B6B5456002104EC /* EpaySDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0A51CD2D2B9114180088EB6C /* EpaySDK in Frameworks */ = {isa = PBXBuildFile; productRef = 0A51CD2C2B9114180088EB6C /* EpaySDK */; };
 		5D0B84D5242B0F8C002F55F9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D0B84D7242B0F8C002F55F9 /* Localizable.strings */; };
 		5D60CEBF2426615900D0BC82 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D60CEBE2426615900D0BC82 /* UIView+Extensions.swift */; };
 		5D8856F7241A82C100E63E06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8856F6241A82C100E63E06 /* AppDelegate.swift */; };
@@ -22,7 +22,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				0A1BDA3E2B6B5457002104EC /* EpaySDK.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -30,7 +29,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0A1BDA3D2B6B5456002104EC /* EpaySDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = EpaySDK.xcframework; sourceTree = "<group>"; };
 		5D0B84D6242B0F8C002F55F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		5D0B84DA242B0FB7002F55F9 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		5D0B84DB242B1030002F55F9 /* kk-KZ */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "kk-KZ"; path = "kk-KZ.lproj/Localizable.strings"; sourceTree = "<group>"; };
@@ -48,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A51CD2D2B9114180088EB6C /* EpaySDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,7 +56,6 @@
 		5D8856EA241A82C100E63E06 = {
 			isa = PBXGroup;
 			children = (
-				0A1BDA3D2B6B5456002104EC /* EpaySDK.xcframework */,
 				5D8856F5241A82C100E63E06 /* EpayApp */,
 				5D8856F4241A82C100E63E06 /* Products */,
 				5DF116E6254BF39000E092CF /* Frameworks */,
@@ -111,6 +109,9 @@
 			dependencies = (
 			);
 			name = EpayApp;
+			packageProductDependencies = (
+				0A51CD2C2B9114180088EB6C /* EpaySDK */,
+			);
 			productName = EpayApp;
 			productReference = 5D8856F3241A82C100E63E06 /* EpayApp.app */;
 			productType = "com.apple.product-type.application";
@@ -141,6 +142,9 @@
 				"kk-KZ",
 			);
 			mainGroup = 5D8856EA241A82C100E63E06;
+			packageReferences = (
+				0A51CD2B2B9114180088EB6C /* XCRemoteSwiftPackageReference "EpaySDK" */,
+			);
 			productRefGroup = 5D8856F4241A82C100E63E06 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -248,7 +252,6 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -266,7 +269,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -311,7 +314,6 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -351,7 +353,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.2;
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = kz.homebank.epay.sdk.example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -411,6 +413,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0A51CD2B2B9114180088EB6C /* XCRemoteSwiftPackageReference "EpaySDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/halyk/EpaySDK.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0A51CD2C2B9114180088EB6C /* EpaySDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0A51CD2B2B9114180088EB6C /* XCRemoteSwiftPackageReference "EpaySDK" */;
+			productName = EpaySDK;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5D8856EB241A82C100E63E06 /* Project object */;
 }

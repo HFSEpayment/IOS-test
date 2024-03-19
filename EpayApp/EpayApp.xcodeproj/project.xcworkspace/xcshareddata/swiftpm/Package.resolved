@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "cardscan-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/getbouncer/cardscan-ios.git",
+      "state" : {
+        "revision" : "a964a5cded3c857638c0f475730110e37a916b7f",
+        "version" : "2.1.2"
+      }
+    },
+    {
+      "identity" : "epaysdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/halyk/EpaySDK.git",
+      "state" : {
+        "revision" : "6e542026bf37db7b38cf3f1455c4eb4153b8a596",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 2
+}

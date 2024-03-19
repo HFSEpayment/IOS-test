@@ -207,7 +207,7 @@ class ViewController: UIViewController {
             merchantName: environmentType != .dev ? "" : "UberFlower",
             clientId: environmentType != .dev ? "" : "test",
             clientSecret: environmentType != .dev ? "" : "yF587AV9Ms94qN2QShFzVR3vFnWkhjbAK3sG",
-            appleMerchantId: "merchant.kz.homebank.epay"
+            appleMerchantId: "epay"
         )
         
         let invoice = Invoice(

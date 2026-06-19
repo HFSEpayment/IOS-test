@@ -328,7 +328,7 @@ class ViewController: UIViewController {
                 let authConfig = AuthConfig(
                     merchantName: "UberFlower",
                     appClipToken: token,
-                    appleMerchantId: "merchant.kz.homebank.epay"
+                    appleMerchantId: "merchant"
                 )
 
                 let pm = PaymentModel(

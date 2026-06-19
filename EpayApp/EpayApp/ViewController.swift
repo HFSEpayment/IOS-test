@@ -9,6 +9,13 @@
 import UIKit
 import EpaySDK
 
+struct TokenResponse: Codable {
+    let access_token: String
+    let token_type: String?
+    let expires_in: String?
+    let scope: String?
+}
+
 class ViewController: UIViewController {
 
     var environmentType: EnvironmentType! = .prod
@@ -127,6 +134,15 @@ class ViewController: UIViewController {
         return l
     }()
     
+    lazy var terminalTextField: UITextField = {
+        let t = UITextField()
+        t.placeholder = "terminal"
+        t.text = ""
+        t.backgroundColor = .white
+        t.addTarget(self, action: #selector(textFieldsIsNotEmpty), for: .editingChanged)
+        return t
+    }()
+    
     lazy var button: UIButton = {
         let b = UIButton()
         b.setTitle("Pay with SDK", for: .normal)
@@ -172,6 +188,7 @@ class ViewController: UIViewController {
         stackView.addArrangedSubview(invoiceIdTextField)
         stackView.addArrangedSubview(amountTextField)
         stackView.addArrangedSubview(descriptionTextField)
+        stackView.addArrangedSubview(terminalTextField)
         stackView.addArrangedSubview(environmentSegmentedControl)
         stackView.addArrangedSubview(isRecurrentSegmentedControl)
         stackView.addArrangedSubview(autoPaymentTypeSegmentedControl)
@@ -191,47 +208,148 @@ class ViewController: UIViewController {
         invoiceIdTextField.anchor(height: 40)
         amountTextField.anchor(height: 40)
         descriptionTextField.anchor(height: 40)
+        terminalTextField.anchor(height: 40)
+    }
+    
+    private func getToken(
+        invoiceId: String,
+        amount: Double,
+        terminal: String,
+        completion: @escaping (String?) -> Void
+    ) {
+        guard let url = URL(string: "https://epay-oauth.homebank.kz/oauth2/token") else {
+            completion(nil)
+            return
+        }
+
+        var request = URLRequest(url: url)
+        request.httpMethod = "POST"
+        request.setValue(
+            "application/x-www-form-urlencoded",
+            forHTTPHeaderField: "Content-Type"
+        )
+
+        let params = [
+            "grant_type": "client_credentials",
+            "scope": "payment usermanagement",
+            "client_id": "",
+            "client_secret": "",
+            "invoiceID": invoiceId,
+            "amount": String(Int(amount)),
+            "currency": "KZT",
+            "terminal": terminal,
+            "is_credit": "N"
+        ]
+
+        request.httpBody = params
+            .map { "\($0.key)=\($0.value)" }
+            .joined(separator: "&")
+            .data(using: .utf8)
+
+        URLSession.shared.dataTask(with: request) { data, response, error in
+
+            if let error = error {
+                print("Token error:", error)
+                completion(nil)
+                return
+            }
+
+            guard let data = data else {
+                completion(nil)
+                return
+            }
+
+            do {
+                let tokenResponse = try JSONDecoder().decode(
+                    TokenResponse.self,
+                    from: data
+                )
+
+                completion(tokenResponse.access_token)
+
+            } catch {
+                print(
+                    "Token response:",
+                    String(data: data, encoding: .utf8) ?? ""
+                )
+                completion(nil)
+            }
+        }
+        .resume()
     }
     
     @objc func handleButton() {
+
         invoiceIdTextField.resignFirstResponder()
         amountTextField.resignFirstResponder()
         descriptionTextField.resignFirstResponder()
         
+
         let amount = Double(amountTextField.text!)!
         let invoiceId = invoiceIdTextField.text!
-        let description = descriptionTextField.text! == "" ? "Оплата в интернет магазине" : descriptionTextField.text!
-        
-        let authConfig = AuthConfig(
-            merchantId: environmentType != .dev ? "" : "67e34d63-102f-4bd1-898e-370781d0074d",
-            merchantName: environmentType != .dev ? "" : "UberFlower",
-            clientId: environmentType != .dev ? "" : "test",
-            clientSecret: environmentType != .dev ? "" : "yF587AV9Ms94qN2QShFzVR3vFnWkhjbAK3sG",
-            appleMerchantId: "epay"
-        )
-        
+        let description = descriptionTextField.text!.isEmpty ? "Оплата в интернет магазине" : descriptionTextField.text!
+        let terminal = terminalTextField.text!
+
         let invoice = Invoice(
             id: invoiceId,
             amount: amount,
             currency: "KZT",
             accountId: "uuid000001",
             description: description,
+            terminal: terminal,
             postLink: "https://testmerchant/order/1123",
             failurePostLink: "https://testmerchant/order/1123/fail",
             isRecurrent: isRecurrent,
             autoPaymentFrequency: autoPaymentFrequency,
             transferType: transferType,
-//            homebankToken: "2KRYSRG9MTCWZ3814OP8MG",
             sender: senderCard,
             receiver: receiverCard,
-            masterPass: masterPass
+            selfCert: true,
+            isApplePay: true
         )
-        
-        let pm = PaymentModel(authConfig: authConfig, invoice: invoice)
-        
-        let launchScreenVC = LaunchScreenViewController(paymentModel: pm)
-        launchScreenVC.setEnvironmetType(type: environmentType)
-        navigationController?.pushViewController(launchScreenVC, animated: true)
+
+        getToken(
+            invoiceId: invoiceId,
+            amount: amount,
+            terminal: terminal
+        ) { [weak self] token in
+
+            guard let self = self else { return }
+
+            guard let token = token else {
+                DispatchQueue.main.async {
+                    self.responseLabel.text = "Не удалось получить токен"
+                }
+                return
+            }
+
+            DispatchQueue.main.async {
+
+                let authConfig = AuthConfig(
+                    merchantName: "UberFlower",
+                    appClipToken: token,
+                    appleMerchantId: "merchant.kz.homebank.epay"
+                )
+
+                let pm = PaymentModel(
+                    authConfig: authConfig,
+                    invoice: invoice
+                )
+
+                let launchScreenVC = LaunchScreenViewController(
+                    paymentModel: pm
+                )
+
+                launchScreenVC.setEnvironmetType(
+                    type: self.environmentType
+                )
+
+                self.navigationController?.pushViewController(
+                    launchScreenVC,
+                    animated: true
+                )
+            }
+        }
     }
     
     @objc func textFieldsIsNotEmpty(sender: UITextField) {
@@ -239,7 +357,8 @@ class ViewController: UIViewController {
         guard
             let invoiceId = invoiceIdTextField.text, !invoiceId.isEmpty,
             let amount = amountTextField.text, !amount.isEmpty,
-            let description = descriptionTextField.text
+            let description = descriptionTextField.text,
+            let terminal = terminalTextField.text, !terminal.isEmpty
             else
         {
             self.button.isEnabled = false
